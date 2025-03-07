@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target      = '13.0'
   s.source                      = { :git => "https://github.com/ArtSabintsev/Siren.git", :tag => s.version.to_s }
   s.source_files                = 'Sources/**/*.swift'
-  s.resources                   = 'Sources/Siren.bundle'
+  #s.resources                   = 'Sources/Siren.bundle'
   s.requires_arc                = true
   s.resource_bundles = {'Siren' => ['Source/PrivacyInfo.xcprivacy']}
 end
